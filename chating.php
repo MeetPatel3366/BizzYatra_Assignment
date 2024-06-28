@@ -22,10 +22,8 @@ if(isset($_POST['msg']) && isset($_POST['name']) && isset($_POST['friend'] )) {
     $msg = $_POST['msg'];
     $user_email = $current_user;  
     $friend_name=$_POST['friend'];
-    $friend_email=$femail;
-    
 
-    $sql = "INSERT INTO chat (`user_name`, `friend_name`, `message`, `user_email`, `friend`, `time`) VALUES ('$user_name','$friend_name','$msg','$user_email', '$friend_email',current_timestamp())";
+    $sql = "INSERT INTO chat (`user_name`, `friend_name`, `message`, `user_email`, `time`) VALUES ('$user_name','$friend_name','$msg','$user_email',current_timestamp())";
     mysqli_query($conn, $sql);
     if (!mysqli_query($conn, $sql)) {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
