@@ -1,2 +1,2 @@
 # BizzYatra_Assignment
-Assignment based on PHP, Ajax, HTML and CSS
+<p>Chat App Using web socket in PHP.</p>
