@@ -1,2 +1,2 @@
 # BizzYatra_Assignment
-Assignment based on PHP, Ajax, HTML and CSS
+Built a real-time chat system using PHP and WebSockets, enabling instant two-way communication between users.
